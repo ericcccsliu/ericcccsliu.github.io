@@ -1,21 +1,127 @@
-body {
-    background-color: lightblue;
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&family=Raleway:wght@100&display=swap');
+
+html, body {
+    min-height: 100%;
 }
+body {
+    background-image: linear-gradient(#b1daeb,white);
+}
+
+.top-spacer{
+    padding-bottom: 7%;
+}
+
 h1 {
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 75px;
 }
-p {
+/*subheader*/
+h2 {
     text-align: center; 
+    font-family: 'Darker Grotesque', sans-serif; 
+    font-size: 35px;
 }
-.center {
+
+h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px; 
+}
+
+
+
+.center{
     display:block;
     margin-left:auto;
     margin-right:auto;
 }
 
-.profilepic {
-    border-radius: 50%; 
-    width: 12.5%; 
+.profilepic-container {
+    position:relative;
+    text-align: center;
+    width:100%; 
 }
 
+.profilepic {
+    border-radius: 50%; 
+    width: 15%; 
+    padding: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.profilepic:hover {
+    opacity: 0.75; 
+
+}
+
+.profilepic-text{ 
+    opacity: 0; 
+    transition: 0.2s ease-in-out;
+    font-size: 0px; 
+    font-family: 'Darker Grotesque', sans-serif;
+    color:black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%); 
+    pointer-events:none;
+}
+
+.profilepic:hover + .profilepic-text{
+    font-size: 100px; 
+    opacity: 0.5;
+}
+
+
+.bottom {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+hr.solid {
+    border-top: 1px solid rgb(204, 204, 204);  
+    width: 50%;
+    padding-bottom:0px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    margin-left: auto;
+    margin-right: auto; 
+    color:rgb(204, 204, 204);
+
+  }
+.spacer{
+    margin:100px;
+}
+
+footer{
+    position:fixed; 
+    display: inline;
+    left:0;
+    bottom:0; 
+    width:99%; 
+    margin: 5px;  
+    text-align:right; 
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 30px; 
+    color:darkslategray
+}
+
+
+a:link, a:visited{
+    color:darkslategray;
+    text-decoration: none; 
+}
+
+a:hover{
+    color:slategray; 
+    text-decoration: underline;
+}
+
+a:active{
+    color:gray; 
+    text-decoration:underline; 
+}
 
