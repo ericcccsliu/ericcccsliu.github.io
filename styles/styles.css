@@ -60,7 +60,7 @@ h3 {
     opacity: 0; 
     transition: 0.2s ease-in-out;
     font-size: 0px; 
-    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color:black;
     position: absolute;
     top: 50%;
@@ -70,7 +70,7 @@ h3 {
 }
 
 .profilepic:hover + .profilepic-text{
-    font-size: 100px; 
+    font-size: 50px; 
     opacity: 0.5;
 }
 
