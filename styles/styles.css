@@ -5,11 +5,30 @@ html, body {
 }
 body {
     background-image: linear-gradient(#b1daeb,white);
+    animation: fadeInAnimation ease-in-out 3s;
+
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 .top-spacer{
-    padding-bottom: 7%;
+    padding-bottom: 4.5%;
 }
+
+header{
+    text-align:left; 
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 30px; 
+    color:darkslategray;
+    margin: 5px; 
+}
+h1,h2,h4 {margin: 0;}
 
 h1 {
     text-align: center;
@@ -26,7 +45,7 @@ h2 {
 h3 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 35px; 
+    font-size: 50px; 
 }
 
 
@@ -44,8 +63,8 @@ h3 {
 }
 
 .profilepic {
-    border-radius: 50%; 
-    width: 15%; 
+    /*border-radius: 50%; */
+    width: 250px; 
     padding: 10px;
     transition: opacity 0.2s ease-in-out;
 }
@@ -53,7 +72,6 @@ h3 {
 
 .profilepic:hover {
     opacity: 0.75; 
-
 }
 
 .profilepic-text{ 
@@ -63,17 +81,27 @@ h3 {
     font-family: 'Raleway', sans-serif;
     color:black;
     position: absolute;
-    top: 50%;
+    top: 21%;
     left: 50%;
-    transform: translate(-50%, -55%); 
+    transform: translate(-50%, 0%); 
     pointer-events:none;
 }
 
-.profilepic:hover + .profilepic-text{
-    font-size: 50px; 
+.profilepic:hover + .profilepic-text {
+    font-size: 80px; 
     opacity: 0.5;
 }
+.hidden-subheading {
+    text-align: center; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px; 
+    opacity: 0; 
+    transition: opacity 0.5s;
+}
 
+.profilepic:hover ~ .hidden-subheading {
+    opacity: 0.75;
+}
 
 .bottom {
     display: flex;
