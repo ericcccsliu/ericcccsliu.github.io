@@ -48,7 +48,11 @@ h3 {
     font-size: 50px; 
 }
 
-
+p {
+    margin: 50px; 
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px; 
+}
 
 .center{
     display:block;
@@ -81,7 +85,7 @@ h3 {
     font-family: 'Raleway', sans-serif;
     color:black;
     position: absolute;
-    top: 21%;
+    top: 19%;
     left: 50%;
     transform: translate(-50%, 0%); 
     pointer-events:none;
