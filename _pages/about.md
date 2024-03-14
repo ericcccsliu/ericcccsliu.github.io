@@ -17,7 +17,7 @@ full-stack web applications for [OpenClimateFix](https://www.openclimatefix.org/
 
 Off campus
 ------
-I've conducted research as part of the [REU in Software Engineering](https://www.cmu.edu/scs/s3d/reuse/) at Carnegie Mellon University and worked as a quantitative trading intern at [Jane Street Capital](https://www.janestreet.com/). Next summer, I'll be working as a quantitative trading intern at [Citadel Securities](https://www.citadelsecurities.com/).
+I've conducted research as part of the [REU in Software Engineering](https://www.cmu.edu/scs/s3d/reuse/) at Carnegie Mellon University and worked as a quantitative trading intern at [Jane Street Capital](https://www.janestreet.com/). <!--Next summer, I'll be working as a quantitative trading intern at [Citadel Securities](https://www.citadelsecurities.com/).-->
 
 <!-- Site-wide configuration
 ------
