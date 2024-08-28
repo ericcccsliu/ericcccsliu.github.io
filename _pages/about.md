@@ -12,12 +12,12 @@ Hi! I'm Eric, and and I'm currently an undergraduate student at the [University 
 
 On campus
 ------
-I'm one of the co-directors of [Hack4Impact UIUC](https://uiuc.hack4impact.org), a nonprofit dedicated to building technology for social good. As part of Hack4Impact, I've worked in teams to build out 
+I'm a member (and former co-director) of [Hack4Impact UIUC](https://uiuc.hack4impact.org), a nonprofit dedicated to building technology for social good. As part of Hack4Impact, I've worked in teams to build out 
 full-stack web applications for [OpenClimateFix](https://www.openclimatefix.org/), a nonprofit fighting climate change with machine learning, [Coko](https://coko.foundation/), an open-source publishing platform, and [Brink](https://www.brinkapp.co/), an accessible voting guide. 
 
 Off campus
 ------
-I've conducted research as part of the [REU in Software Engineering](https://www.cmu.edu/scs/s3d/reuse/) at Carnegie Mellon University and worked as a quantitative trading intern at [Jane Street Capital](https://www.janestreet.com/). Next summer, I'll be working as a quantitative trading intern at [Citadel Securities](https://www.citadelsecurities.com/).
+I've conducted research as part of the [REU in Software Engineering](https://www.cmu.edu/scs/s3d/reuse/) at Carnegie Mellon University and worked as a quantitative trading intern at [Jane Street Capital](https://www.janestreet.com/) and [Citadel Securities](https://www.citadelsecurities.com/). I'll be working full-time as a quantitative trader after I graduate.
 
 <!-- Site-wide configuration
 ------
